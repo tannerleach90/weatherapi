@@ -9,11 +9,33 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <title>Weather Forecast</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <form id="weather-form">
+                    <label for="city-search">Search for a City:</label>
+                    <input type="text" id="city-search">
+                </form>                
+                
+                <ul id="city-history">
+                   
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <div class="jumbotron main-city-data">
+                  
+                </div>
+                <div id="forecast-city-container" class="d-flex">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="javascript.js"></script>

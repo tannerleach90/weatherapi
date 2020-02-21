@@ -1,1 +1,10 @@
 
+.cloud-cover {
+    background-color: lightskyblue;
+    padding: 5px;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
